@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="1" contextid="2">
+  <shortname>fiware</shortname>
+  <fullname>Fi-ware</fullname>
+  <idnumber></idnumber>
+  <summary></summary>
+  <summaryformat>0</summaryformat>
+  <format>site</format>
+  <showgrades>1</showgrades>
+  <newsitems>4</newsitems>
+  <startdate>0</startdate>
+  <marker>0</marker>
+  <maxbytes>0</maxbytes>
+  <legacyfiles>0</legacyfiles>
+  <showreports>0</showreports>
+  <visible>1</visible>
+  <groupmode>0</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang></lang>
+  <theme></theme>
+  <timecreated>1364379020</timecreated>
+  <timemodified>1374823278</timemodified>
+  <requested>0</requested>
+  <enablecompletion>0</enablecompletion>
+  <completionstartonenrol>0</completionstartonenrol>
+  <completionnotify>0</completionnotify>
+  <numsections>1</numsections>
+  <category id="">
+  </category>
+  <tags>
+  </tags>
+</course>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="2" contextid="5">
+    <username>admin</username>
+    <idnumber></idnumber>
+    <firstname>Admin</firstname>
+    <lastname>User</lastname>
+    <email>fiware-elearning@lists.fi-ware.org</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>Roma</city>
+    <country>IT</country>
+    <lastip>89.97.237.254</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description></description>
+    <descriptionformat>0</descriptionformat>
+    <imagealt></imagealt>
+    <auth>manual</auth>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1364379116</firstaccess>
+    <lastaccess>1442483056</lastaccess>
+    <lastlogin>1442317111</lastlogin>
+    <currentlogin>1442482285</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>1</maildisplay>
+    <htmleditor>1</htmleditor>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>0</timecreated>
+    <timemodified>1418806853</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+      <preference id="76">
+        <name>block109hidden</name>
+        <value>1</value>
+      </preference>
+      <preference id="77">
+        <name>block110hidden</name>
+        <value>1</value>
+      </preference>
+      <preference id="78">
+        <name>block111hidden</name>
+        <value>1</value>
+      </preference>
+      <preference id="79">
+        <name>block112hidden</name>
+        <value>1</value>
+      </preference>
+      <preference id="10">
+        <name>block1hidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="6">
+        <name>block4hidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="5">
+        <name>block5hidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="23">
+        <name>course_edit_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="22">
+        <name>course_overview_number_of_courses</name>
+        <value>0</value>
+      </preference>
+      <preference id="26">
+        <name>definerole_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="1">
+        <name>email_bounce_count</name>
+        <value>0</value>
+      </preference>
+      <preference id="2">
+        <name>email_send_count</name>
+        <value>0</value>
+      </preference>
+      <preference id="366">
+        <name>feed_edit_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="4">
+        <name>filepicker_recentlicense</name>
+        <value>cc-nc-sa</value>
+      </preference>
+      <preference id="3">
+        <name>filepicker_recentrepository</name>
+        <value>3</value>
+      </preference>
+      <preference id="15">
+        <name>forum_displaymode</name>
+        <value>-1</value>
+      </preference>
+      <preference id="280">
+        <name>mod_chat_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="57">
+        <name>mod_resource_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="16">
+        <name>mod_scorm_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="64">
+        <name>mod_url_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="184">
+        <name>recent_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="17">
+        <name>scorm_report_detailed</name>
+        <value>1</value>
+      </preference>
+      <preference id="18">
+        <name>scorm_report_pagesize</name>
+        <value>20</value>
+      </preference>
+      <preference id="185">
+        <name>usemodchooser</name>
+        <value>1</value>
+      </preference>
+      <preference id="98">
+        <name>user_add_filter_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="20">
+        <name>userselector_autoselectunique</name>
+        <value>0</value>
+      </preference>
+      <preference id="24">
+        <name>userselector_optionscollapsed</name>
+        <value>0</value>
+      </preference>
+      <preference id="19">
+        <name>userselector_preserveselected</name>
+        <value>0</value>
+      </preference>
+      <preference id="21">
+        <name>userselector_searchanywhere</name>
+        <value>0</value>
+      </preference>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+  <user id="30" contextid="91">
+    <username>pcasla</username>
+    <idnumber></idnumber>
+    <firstname>Patricia</firstname>
+    <lastname>Casla</lastname>
+    <email>patricia.casla@tekniker.es</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>Eibar</city>
+    <country>ES</country>
+    <lastip>193.144.237.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description>$@NULL@$</description>
+    <descriptionformat>0</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>email</auth>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1370413673</firstaccess>
+    <lastaccess>1370413764</lastaccess>
+    <lastlogin>0</lastlogin>
+    <currentlogin>1370413695</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>2</maildisplay>
+    <htmleditor>1</htmleditor>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>1370413673</timecreated>
+    <timemodified>0</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+</users>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="1" contextid="6" version="2012112900">
+  <blockname>site_main_menu</blockname>
+  <parentcontextid>2</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>site-index</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-pre</defaultregion>
+  <defaultweight>0</defaultweight>
+  <configdata></configdata>
+  <block_positions>
+  </block_positions>
+</block>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2">
+  <number>1</number>
+  <name>$@NULL@$</name>
+  <summary>&lt;p&gt;&lt;span style="line-height: 1.4;"&gt;Welcome to the FIWARE Academy, where you can find training courses, lessons and many other contents regarding FIWARE technology.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to start browsing our offering from the &lt;span style="text-decoration: underline;"&gt;&lt;a href="http://edu.fi-ware.eu/#skipcategories"&gt;categories&lt;/a&gt;&lt;/span&gt; listed below, or from the &lt;em&gt;Available Courses&lt;/em&gt; section (main menu bar), click on them and access the lessons.&lt;/p&gt;
+&lt;p&gt;Few quick steps and you can easily get access to all the public coursed published in this platform.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/centro.jpg" height="410" width="544" /&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence></sequence>
+  <visible>1</visible>
+  <availablefrom>0</availablefrom>
+  <availableuntil>0</availableuntil>
+  <showavailability>0</showavailability>
+  <groupingid>0</groupingid>
+</section>
