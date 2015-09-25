@@ -12,4 +12,4 @@ Read more informations in FAQ section in Moodle documentation.
 
 https://docs.moodle.org/24/en/Backup_and_restore_FAQ
 
-FIWARE Accademy team
+FIWARE Academy team
