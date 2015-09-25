@@ -11,4 +11,4 @@ Some updates will come in this Readme as soon as possible.
 
 Thanks
 
-FIWARE Accademy team
+FIWARE Academy team
