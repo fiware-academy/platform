@@ -7,7 +7,9 @@ It is based on Moodle (http://moodle.org) with specific configurations and theme
 
 For installation follow the moodle specific pages.
 
-Some updates will come in this Readme as soon as possible.
+In moodle-configurations you find specific contents and specifications of FIWARE Academy.
+
+Browse into the moodle-configurations folder to read how set up your installation.
 
 Thanks
 
