@@ -22,7 +22,7 @@
  */
 
 $numberofslides = theme_klass_get_setting('numberofslides');
-if ($numberofslides>1) { ?>
+if ($numberofslides>0) { ?>
 <div class="theme-slider">
   <div id="home-page-carousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -59,67 +59,4 @@ if ($numberofslides>1) { ?>
   </div>
 </div>
 <!--E.O.Slider-->    
-<?php }else{ ?>
-<div class="theme-slider">
-  <div id="home-page-carousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- 
-    <ol class="carousel-indicators">
-     <?php for($s=0;$s<$numberofslides;$s++): 
-		$cls_txt = ($s=="0")?' class="active"':'';
-		?>
-     	<li data-target="#home-page-carousel" data-slide-to="<?php echo $s; ?>" <?php echo $cls_txt; ?>></li>
-	<?php endfor; ?>
-    </ol>
-    -->
-    <!-- Wrapper for slides -->
-     <?php
-     	$s1=1; 
-		$cls_txt2 = ($s1=="1")?' active':'';
-		$slidecaption = theme_klass_get_setting('slide' . $s1 . 'caption', true);
-		$slideurl = theme_klass_get_setting('slide' . $s1 . 'url');
-		$slideimg = theme_klass_render_slideimg($s1,'slide' . $s1 . 'image');
-		$who_title = theme_klass_get_setting('whoweare_title');
-	    $who_desc = theme_klass_get_setting('whoweare_description');
-	    $slidecaption=$who_title;
-	    
-		?>
-	<!-- 
-	<div class="carousel-inner" role="listbox">
-	  <div class="carousel-overlay-content floating-left">
-            <div class="content-wrap">
-              <h2><?php echo $slidecaption; ?></h2><br>
-              <p><?php echo $who_desc;?></p>
-            </div>
-	  </div>
-      <div class="item<?php echo $cls_txt2; ?> floating-left" style="background-image: url(<?php echo $slideimg; ?>);">
-      </div>
-      		
-    -->
-    <div class="carousel-inner" role="listbox">
-	  <div class="carousel-overlay-content floating-left">
-            <div class="content-wrap">
-              <h2><?php echo $slidecaption; ?></h2><br>
-              <p><?php echo $who_desc;?></p>
-               <ul>
-              	<li class="icon catalogue">
-              		<p><a target="_new" href="http://catalogue.fiware.org/">Catalogue</a></p>
-              	</li>
-              	<li class="icon tutorials">
-              		<p><a target="_new" href="https://www.youtube.com/playlist?list=PLR9elAI9JscSOuSnwIkGzSVW1QKgfDk6d">Tutorials</a></p>
-              	</li>
-              	<li class="icon community">
-              	<p><a target="_new" href="https://www.fiware.org/fiware-community/">Community</a></p>
-              	</li>
-              	</ul>
-            </div>
-	  </div>
-      <div class="carousel-overlay-content floating-left">
-      	<div class="content-wrap">
-      	<img src="<?php echo $slideimg; ?>"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <?php } ?>

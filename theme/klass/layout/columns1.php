@@ -25,7 +25,10 @@
 // Get the HTML for the settings bits.
 $html = theme_klass_get_html_for_settings($OUTPUT, $PAGE);
 
-echo $OUTPUT->doctype() ?>
+echo $OUTPUT->doctype();
+/*
+// Need to overload old css definitions
+$PAGE->requires->css('/theme/klass/style/custom.css');?>
 <html <?php echo $OUTPUT->htmlattributes(); ?>>
 <head>
     <title><?php echo $OUTPUT->page_title(); ?></title>
@@ -35,7 +38,7 @@ echo $OUTPUT->doctype() ?>
 </head>
 
 <body <?php echo $OUTPUT->body_attributes(); ?>>
-
+[layout:column1.php]<br>
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
 <?php /*?><header role="banner" class="navbar navbar-fixed-top<?php echo $html->navbarclass ?> moodle-has-zindex">
@@ -59,8 +62,8 @@ echo $OUTPUT->doctype() ?>
         </div>
     </nav>
 </header><?php */?>
-<?php  require_once(dirname(__FILE__) . '/includes/header.php');  ?>
-
+<?php require_once(dirname(__FILE__) . '/includes/header.php');  ?>
+<!-- layout: columns1.php -->
 <div id="page" class="container-fluid">
 
     <header id="page-header" class="clearfix">

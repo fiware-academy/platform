@@ -114,7 +114,7 @@ $string['logodesc'] = 'Please upload your custom logo here if you want to add it
                        <br>The image should be 50px high and any reasonable width (minimum:235px) that suits.';
 //Added for courses in main manu (https://docs.moodle.org/dev/Adding_courses_and_categories_to_the_custom_menu#Before_we_get_started)
 $string['courses'] = 'Courses';
-$string['newcourses'] = 'New courses';
+$string['newcourses'] = 'NEW COURSES';
 $string['newsblockcontent'] = 'News & Events Block Content';
 $string['newsblockcontentdesc'] = 'Whatever you add to this textarea will be displayed in the News & Events Block.';
 $string['newsblockheading'] = 'News & Events Block';
@@ -216,6 +216,12 @@ $string['twurl'] = 'Twitter';
 $string['twurl_default'] = 'https://twitter.com/yourtwittername';
 $string['twurldesc'] = 'The Twitter url of your organisation.';
 */
+$string['subcategory'] = 'Subcategories';
+$string['courses'] = ' courses';//' course(s)';
+$string['course'] = ' course';
+$string['browsetocategory'] = 'Browse to category';
+$string['openlist'] = 'Open list';
+
 $string['whoweare_title'] = 'Title';
 $string['whoweare_title_default'] = 'Who we are';
 $string['whoweare_description'] = 'Description \'bout wo we are';

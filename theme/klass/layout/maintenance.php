@@ -37,7 +37,7 @@ echo $OUTPUT->doctype() ?>
 <body <?php echo $OUTPUT->body_attributes(); ?>>
 
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
-
+<!-- layout: maintenance.php -->
 <div id="page" class="container-fluid">
 
     <header id="page-header" class="clearfix">

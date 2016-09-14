@@ -26,7 +26,23 @@
 $html = theme_klass_get_html_for_settings($OUTPUT, $PAGE);
 
 $left = (!right_to_left());  // To know if to add 'pull-right' and 'desktop-first-column' classes in the layout for LTR.
-echo $OUTPUT->doctype() ?>
+echo $OUTPUT->doctype();
+// Get the HTML for the settings bits.
+$html = theme_klass_get_html_for_settings($OUTPUT, $PAGE);
+
+if (right_to_left()) {
+    $regionbsid = 'region-bs-main-and-post';
+} else {
+    $regionbsid = 'region-bs-main-and-pre';
+}
+echo $OUTPUT->doctype();
+/*
+$PAGE->requires->js('/theme/klass/javascript/bootstrap-carousel.js');
+$PAGE->requires->js('/theme/klass/javascript/bootstrap-transition.js');
+// Need to overload old css definitions
+$PAGE->requires->css('/theme/klass/style/custom.css');
+$courserenderer = $PAGE->get_renderer('core', 'course');
+?>
 <html <?php echo $OUTPUT->htmlattributes(); ?>>
 <head>
     <title><?php echo $OUTPUT->page_title(); ?></title>
@@ -36,7 +52,7 @@ echo $OUTPUT->doctype() ?>
 </head>
 
 <body <?php echo $OUTPUT->body_attributes('two-column'); ?>>
-
+[layout:column2.php]<br>
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
 <?php /*?><header role="banner" class="navbar navbar-fixed-top<?php echo $html->navbarclass ?> moodle-has-zindex">
@@ -60,7 +76,8 @@ echo $OUTPUT->doctype() ?>
         </div>
     </nav>
 </header><?php */?>
-<?php  require_once(dirname(__FILE__) . '/includes/header.php');  ?>
+<?php require_once(dirname(__FILE__) . '/includes/header.php');  ?>
+<!-- layout: columns2.php -->
 
 <div id="page" class="container-fluid">
 
@@ -106,7 +123,6 @@ echo $OUTPUT->doctype() ?>
     <?php echo $OUTPUT->standard_end_of_body_html() ?><?php */?>
 
 </div>
-
 <?php  require_once(dirname(__FILE__) . '/includes/footer.php');  ?>
 
 </body>

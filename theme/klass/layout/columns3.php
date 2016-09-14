@@ -29,7 +29,11 @@ if (right_to_left()) {
     $regionbsid = 'region-bs-main-and-pre';
 }
 
-echo $OUTPUT->doctype() ?>
+echo $OUTPUT->doctype();
+/*
+// Need to overload old css definitions
+$PAGE->requires->css('/theme/klass/style/custom.css');
+?>
 <html <?php echo $OUTPUT->htmlattributes(); ?>>
 <head>
     <title><?php echo $OUTPUT->page_title(); ?></title>
@@ -39,9 +43,7 @@ echo $OUTPUT->doctype() ?>
 </head>
 
 <body <?php echo $OUTPUT->body_attributes(); ?>>
-
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
-
 <?php /*?><header role="banner" class="navbar navbar-fixed-top<?php echo $html->navbarclass ?> moodle-has-zindex">
     <nav role="navigation" class="navbar-inner">
         <div class="container-fluid">
@@ -63,10 +65,11 @@ echo $OUTPUT->doctype() ?>
         </div>
     </nav>
 </header><?php */?>
-<?php  require_once(dirname(__FILE__) . '/includes/header.php');  ?>
+<?php require_once(dirname(__FILE__) . '/includes/header.php'); ?>
+<!-- layout: columns3.php -->
 
 <div id="page" class="container-fluid">
-
+<?php  ?>
     <header id="page-header" class="clearfix">
         <?php echo $html->heading; ?>
         <div id="page-navbar" class="clearfix">
@@ -77,7 +80,7 @@ echo $OUTPUT->doctype() ?>
             <?php echo $OUTPUT->course_header(); ?>
         </div>
     </header>
-
+<?php  ?>
     <div id="page-content" class="row-fluid">
         <div id="<?php echo $regionbsid ?>" class="span9">
             <div class="row-fluid">
@@ -91,7 +94,10 @@ echo $OUTPUT->doctype() ?>
                 <?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column'); ?>
             </div>
         </div>
-        <?php echo $OUTPUT->blocks('side-post', 'span3'); ?>
+        <?php /*
+        this prints left block panel... we don't like it
+        echo $OUTPUT->blocks('side-post', 'span3'); 
+        */ ?>
     </div>
 
     <?php /*?><footer id="page-footer">

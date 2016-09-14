@@ -25,8 +25,8 @@ $THEME->name = 'klass';
 
 $THEME->doctype = 'html5';
 $THEME->parents = array('bootstrapbase');
-$THEME->sheets = array('custom','theme','font-awesome.min');
-$THEME->supportscssoptimisation = false;
+$THEME->sheets = array('theme','font-awesome.min','custom');
+$THEME->supportscssoptimisation = true;
 $THEME->yuicssmodules = array();
 $THEME->enable_dock = true;
 $THEME->editor_sheets = array();
