@@ -22,11 +22,11 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2015070600;
+$plugin->version   = 2016062300;
 $plugin->maturity = MATURITY_STABLE; // this version's maturity level.
-$plugin->release = 'Klass v1.1 for moodle 2.9.1';
-$plugin->requires  = 2013110500;
-$plugin->component = 'theme_klass';
+$plugin->release = 'FIWARE Theme based on Klass v1.1 for moodle 2.9.2';
+$plugin->requires  = 2016062300;
+$plugin->component = 'theme_fiware';
 $plugin->dependencies = array(
-    'theme_bootstrapbase'  => 2013110500,
+    'theme_bootstrapbase'  => 2016032800,
 );
